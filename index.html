@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Food Website</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+     <div class="hero">
+     <div class="nav-bar">
+        <div class="nav-logo">
+         <img src="https://th.bing.com/th/id/OIP.R8m7KnEhfmeelmB_ji4jNwHaHa?pid=Api&rs=1" >
+        </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+          <ul><a href="#"><li>HOME</li></a>
+              <a href="#"><li>ABOUT</li></a> 
+              <a href="#"><li>RECIPE</li></a>
+          </ul>
+            <button type="button" class="btn">SIGN up</button>
+            
+        </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+     </div>
+         <div class="banner-title">
+           <h1>Food <span>Doesn't have a religion.</span><br>It is a religion.</h1>
+             <button type="button" class="btn1">EXPLORE</button>
+         </div>
+         <div class="vertical-bar">
+          <div class="search-icon">
+              <i class="fa fa-list-ul"></i>
+              <i class="fa fa-search"></i>
+             </div>
+          <div class="social-icon">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-pinterest"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-twitter"></i>
+             </div>
+         </div>
+         <div class="notification">
+           <div class="contents">
+              <small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry. </small>
+               <p><a href="#">PREV</a></p><p><a href="#">NEXT</a></p>
+             </div>
+           <div class="notification-img"> 
+               <img src="food%20back.jpg">
+           </div>
+         </div>
+    </div>
+    <script>
+        var show = document.getElementById("nav-links");
+    function showMenu(){
+        show.style.right = "0";}
+    function closeMenu(){
+        show.style.right = "-200px";
+         }
+    </script>
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
+
